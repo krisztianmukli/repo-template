@@ -59,7 +59,7 @@ In such cases, there are two possible approaches:
   *ex:* `feature/new_mission`
 - `hotfix`: prefix with `hotfix/` and then a short descriptive name  
   *ex:* `hotfix/duplicate_mission`
-- **`release`**: must be `release/x.y.z`   
+- `release`: must be `release/x.y.z`   
   *ex:* `release/1.2.3`
 
 ## Merge Strategy

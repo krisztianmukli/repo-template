@@ -13,19 +13,19 @@ o----------------------------o-----------------o------------o------> MAIN
                                   \----------------/ FEATURE
 ```
 
-- **`main`**: a legstabilabb, kiadásra kész kódot tartalmazza. Másképp 
+- `main`: a legstabilabb, kiadásra kész kódot tartalmazza. Másképp 
 fogalmazva: a `main` ágról bármikor lehúzhatjuk a kódot, lefordíthatjuk és éles 
 környezetbe telepíthetjük.
 
-- **`develop`**: itt zajlik a fejlesztés nagy része. Amikor a `develop` állapota 
+- `develop`: itt zajlik a fejlesztés nagy része. Amikor a `develop` állapota 
 elég stabil, beolvasztható a `main` ágba. Minden kiadást címkével (taggel) kell 
 ellátni (például: `v2.1.3`).
 
-- **`feature`**: itt történik az egyes funkciók fejlesztése. Mindig a `develop` 
+- `feature`: itt történik az egyes funkciók fejlesztése. Mindig a `develop` 
 ágból kell indítani, és csak a `develop` ágba szabad mergelni. Miután teljesen 
 visszakerült a `develop` ágba, az adott `feature` ág törölhető.
 
-- **`hotfix`**: az aktuális kiadás hibajavítására szolgál. A javítás befejezése 
+- `hotfix`: az aktuális kiadás hibajavítására szolgál. A javítás befejezése 
 után a `hotfix` ágat mind a `main`, mind a `develop` ágba vissza kell mergelni, 
 majd az ág törölhető.
 
@@ -58,15 +58,15 @@ használjuk.**
 
 ## Elnevezési konvenciók
 
-- **`feature`**: `feature/` előtaggal kezdődjön, majd egy rövid, leíró név 
+- `feature`: `feature/` előtaggal kezdődjön, majd egy rövid, leíró név 
 következzen  
   *példa:* `feature/new_mission`
 
-- **`hotfix`**: `hotfix/` előtaggal kezdődjön, majd egy rövid, leíró név 
+- `hotfix`: `hotfix/` előtaggal kezdődjön, majd egy rövid, leíró név 
 következzen  
   *példa:* `hotfix/duplicate_mission`
   
-- **`release`**: `release/x.y.z` formájú legyen  
+- `release`: `release/x.y.z` formájú legyen  
   *példa:* `release/1.2.3`
 
 ## Beolvasztási stratégia
